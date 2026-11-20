@@ -33,7 +33,7 @@ func TestGetAPIKey(t *testing.T) {
 				"Authorization": {"Bearer my-api-key"},
 			},
 			want:    "",
-			wantErr: false,
+			wantErr: true,
 		},
 	}
 
